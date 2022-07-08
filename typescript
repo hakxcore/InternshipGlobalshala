@@ -1,0 +1,445 @@
+Script started on 2022-07-08 17:23:43+05:30 [TERM="xterm-256color" TTY="/dev/pts/0" COLUMNS="166" LINES="41"]
+]0;hritik@hritikpc: ~/Desktop/mukesh[01;32mhritik@hritikpc[00m:[01;34m~/Desktop/mukesh[00m$ ls
+ [0m[01;32mconsolidated-code.sh[0m   [01;32mif-cond.sh[0m   [01;32minstall-6-programs.sh[0m   [01;32mrmove-6-programs.sh[0m   [01;32msys-info.sh[0m   typescript  'week2 Assignment.pdf'
+]0;hritik@hritikpc: ~/Desktop/mukesh[01;32mhritik@hritikpc[00m:[01;34m~/Desktop/mukesh[00m$ ./consolidated-code.sh 
+			Hello this is Mukesh Kumar Submitting the assignment week1 OS Hardening
+[1] Install 12 programms
+[2] Get status of the system
+[3] Remove at least 6 programs
+[4] Using the if condition
+[32m > Choose anyone:[0m 1
+[H[2J[3JInstalling 12 programs
+
+\t\t\n[1] Installing Wireshark
+[sudo] password for hritik: 
+Reading package lists... 0%Reading package lists... 100%Reading package lists... Done
+Building dependency tree... 0%Building dependency tree... 0%Building dependency tree... 50%Building dependency tree... 50%Building dependency tree       
+Reading state information... 0%Reading state information... 0%Reading state information... Done
+wireshark is already the newest version (3.2.3-1).
+The following packages were automatically installed and are no longer required:
+  bridge-utils docker-scan-plugin ubuntu-fan wmdocker
+Use 'sudo apt autoremove' to remove them.
+0 upgraded, 0 newly installed, 0 to remove and 521 not upgraded.
+[2] intalling tree
+Reading package lists... 0%Reading package lists... 100%Reading package lists... Done
+Building dependency tree... 0%Building dependency tree... 0%Building dependency tree... 50%Building dependency tree... 50%Building dependency tree       
+Reading state information... 0%Reading state information... 0%Reading state information... Done
+tree is already the newest version (1.8.0-1).
+The following packages were automatically installed and are no longer required:
+  bridge-utils docker-scan-plugin ubuntu-fan wmdocker
+Use 'sudo apt autoremove' to remove them.
+0 upgraded, 0 newly installed, 0 to remove and 521 not upgraded.
+[3] intalling nmap
+Reading package lists... 0%Reading package lists... 100%Reading package lists... Done
+Building dependency tree... 0%Building dependency tree... 0%Building dependency tree... 50%Building dependency tree... 50%Building dependency tree       
+Reading state information... 0%Reading state information... 0%Reading state information... Done
+nmap is already the newest version (7.80+dfsg1-2build1).
+The following packages were automatically installed and are no longer required:
+  bridge-utils docker-scan-plugin ubuntu-fan wmdocker
+Use 'sudo apt autoremove' to remove them.
+0 upgraded, 0 newly installed, 0 to remove and 521 not upgraded.
+[4] intalling vim
+Reading package lists... 0%Reading package lists... 100%Reading package lists... Done
+Building dependency tree... 0%Building dependency tree... 0%Building dependency tree... 50%Building dependency tree... 50%Building dependency tree       
+Reading state information... 0%Reading state information... 0%Reading state information... Done
+vim is already the newest version (2:8.1.2269-1ubuntu5.7).
+The following packages were automatically installed and are no longer required:
+  bridge-utils docker-scan-plugin ubuntu-fan wmdocker
+Use 'sudo apt autoremove' to remove them.
+0 upgraded, 0 newly installed, 0 to remove and 521 not upgraded.
+[5] intalling curl
+Reading package lists... 0%Reading package lists... 100%Reading package lists... Done
+Building dependency tree... 0%Building dependency tree... 0%Building dependency tree... 50%Building dependency tree... 50%Building dependency tree       
+Reading state information... 0%Reading state information... 0%Reading state information... Done
+curl is already the newest version (7.68.0-1ubuntu2.12).
+The following packages were automatically installed and are no longer required:
+  bridge-utils docker-scan-plugin ubuntu-fan wmdocker
+Use 'sudo apt autoremove' to remove them.
+0 upgraded, 0 newly installed, 0 to remove and 521 not upgraded.
+[6] intalling lolcat
+Reading package lists... 0%Reading package lists... 100%Reading package lists... Done
+Building dependency tree... 0%Building dependency tree... 0%Building dependency tree... 50%Building dependency tree... 50%Building dependency tree       
+Reading state information... 0%Reading state information... 0%Reading state information... Done
+The following packages were automatically installed and are no longer required:
+  bridge-utils docker-scan-plugin ubuntu-fan wmdocker
+Use 'sudo apt autoremove' to remove them.
+The following additional packages will be installed:
+  ruby-paint ruby-trollop
+The following NEW packages will be installed:
+  lolcat ruby-paint ruby-trollop
+0 upgraded, 3 newly installed, 0 to remove and 521 not upgraded.
+Need to get 35.7 kB of archives.
+After this operation, 221 kB of additional disk space will be used.
+Do you want to continue? [Y/n] y
+[33m0% [Working][0m            Get:1 http://in.archive.ubuntu.com/ubuntu focal/universe amd64 ruby-trollop all 2.0-2 [14.8 kB]
+[33m32% [1 ruby-trollop 14.1 kB/14.8 kB 96%][0m[33m                                        40% [Working][0m             Get:2 http://in.archive.ubuntu.com/ubuntu focal/universe amd64 ruby-paint all 0.8.6-2 [15.4 kB]
+[33m71% [2 ruby-paint 14.1 kB/15.4 kB 92%][0m[33m                                      81% [Waiting for headers][0m                         Get:3 http://in.archive.ubuntu.com/ubuntu focal/universe amd64 lolcat all 42.0.99-1 [5,514 B]
+[33m93% [3 lolcat 5,514 B/5,514 B 100%][0m[33m                                   100% [Working][0m              Fetched 35.7 kB in 0s (102 kB/s)
+
+7[0;40r8[1ASelecting previously unselected package ruby-trollop.
+(Reading database ... (Reading database ... 5%(Reading database ... 10%(Reading database ... 15%(Reading database ... 20%(Reading database ... 25%(Reading database ... 30%(Reading database ... 35%(Reading database ... 40%(Reading database ... 45%(Reading database ... 50%(Reading database ... 55%(Reading database ... 60%(Reading database ... 65%(Reading database ... 70%(Reading database ... 75%(Reading database ... 80%(Reading database ... 85%(Reading database ... 90%(Reading database ... 95%(Reading database ... 100%(Reading database ... 429722 files and directories currently installed.)
+Preparing to unpack .../ruby-trollop_2.0-2_all.deb ...
+7[41;0f[42m[30mProgress: [  0%][49m[39m [................................................................................................................................................] 87[41;0f[42m[30mProgress: [  8%][49m[39m [###########.....................................................................................................................................] 8Unpacking ruby-trollop (2.0-2) ...
+7[41;0f[42m[30mProgress: [ 15%][49m[39m [######################..........................................................................................................................] 8Selecting previously unselected package ruby-paint.
+Preparing to unpack .../ruby-paint_0.8.6-2_all.deb ...
+7[41;0f[42m[30mProgress: [ 23%][49m[39m [#################################...............................................................................................................] 8Unpacking ruby-paint (0.8.6-2) ...
+7[41;0f[42m[30mProgress: [ 31%][49m[39m [############################################....................................................................................................] 8Selecting previously unselected package lolcat.
+Preparing to unpack .../lolcat_42.0.99-1_all.deb ...
+7[41;0f[42m[30mProgress: [ 38%][49m[39m [#######################################################.........................................................................................] 8Unpacking lolcat (42.0.99-1) ...
+7[41;0f[42m[30mProgress: [ 46%][49m[39m [##################################################################..............................................................................] 8Setting up ruby-trollop (2.0-2) ...
+7[41;0f[42m[30mProgress: [ 54%][49m[39m [#############################################################################...................................................................] 87[41;0f[42m[30mProgress: [ 62%][49m[39m [########################################################################################........................................................] 8Setting up ruby-paint (0.8.6-2) ...
+7[41;0f[42m[30mProgress: [ 69%][49m[39m [###################################################################################################.............................................] 87[41;0f[42m[30mProgress: [ 77%][49m[39m [##############################################################################################################..................................] 8Setting up lolcat (42.0.99-1) ...
+7[41;0f[42m[30mProgress: [ 85%][49m[39m [#########################################################################################################################.......................] 87[41;0f[42m[30mProgress: [ 92%][49m[39m [####################################################################################################################################............] 8Processing triggers for man-db (2.9.1-1) ...
+
+7[0;41r8[1A[J[7] intalling espeak
+Reading package lists... 0%Reading package lists... 100%Reading package lists... Done
+Building dependency tree... 0%Building dependency tree... 0%Building dependency tree... 50%Building dependency tree... 50%Building dependency tree       
+Reading state information... 0%Reading state information... 0%Reading state information... Done
+espeak is already the newest version (1.48.04+dfsg-8build1).
+The following packages were automatically installed and are no longer required:
+  bridge-utils docker-scan-plugin ubuntu-fan wmdocker
+Use 'sudo apt autoremove' to remove them.
+0 upgraded, 0 newly installed, 0 to remove and 521 not upgraded.
+[8] intalling pv
+Reading package lists... 0%Reading package lists... 100%Reading package lists... Done
+Building dependency tree... 0%Building dependency tree... 0%Building dependency tree... 50%Building dependency tree... 50%Building dependency tree       
+Reading state information... 0%Reading state information... 0%Reading state information... Done
+pv is already the newest version (1.6.6-1).
+The following packages were automatically installed and are no longer required:
+  bridge-utils docker-scan-plugin ubuntu-fan wmdocker
+Use 'sudo apt autoremove' to remove them.
+0 upgraded, 0 newly installed, 0 to remove and 521 not upgraded.
+[9] intalling jq
+Reading package lists... 0%Reading package lists... 100%Reading package lists... Done
+Building dependency tree... 0%Building dependency tree... 0%Building dependency tree... 50%Building dependency tree... 50%Building dependency tree       
+Reading state information... 0%Reading state information... 0%Reading state information... Done
+jq is already the newest version (1.6-1ubuntu0.20.04.1).
+The following packages were automatically installed and are no longer required:
+  bridge-utils docker-scan-plugin ubuntu-fan wmdocker
+Use 'sudo apt autoremove' to remove them.
+0 upgraded, 0 newly installed, 0 to remove and 521 not upgraded.
+[10] intalling dirsearch
+Reading package lists... 0%Reading package lists... 100%Reading package lists... Done
+Building dependency tree... 0%Building dependency tree... 0%Building dependency tree... 50%Building dependency tree... 50%Building dependency tree       
+Reading state information... 0%Reading state information... 0%Reading state information... Done
+[1;31mE: [0mUnable to locate package dirsearch[0m
+[11] intalling git
+Reading package lists... 0%Reading package lists... 100%Reading package lists... Done
+Building dependency tree... 0%Building dependency tree... 0%Building dependency tree... 50%Building dependency tree... 50%Building dependency tree       
+Reading state information... 0%Reading state information... 0%Reading state information... Done
+git is already the newest version (1:2.25.1-1ubuntu3.4).
+The following packages were automatically installed and are no longer required:
+  bridge-utils docker-scan-plugin ubuntu-fan wmdocker
+Use 'sudo apt autoremove' to remove them.
+0 upgraded, 0 newly installed, 0 to remove and 521 not upgraded.
+[12] intalling metasploit
+Reading package lists... 0%Reading package lists... 100%Reading package lists... Done
+Building dependency tree... 0%Building dependency tree... 0%Building dependency tree... 50%Building dependency tree... 50%Building dependency tree       
+Reading state information... 0%Reading state information... 0%Reading state information... Done
+[1;31mE: [0mUnable to locate package metasploit[0m
+]0;hritik@hritikpc: ~/Desktop/mukesh[01;32mhritik@hritikpc[00m:[01;34m~/Desktop/mukesh[00m$ ./consolidated-code.sh 
+			Hello this is Mukesh Kumar Submitting the assignment week1 OS Hardening
+[1] Install 12 programms
+[2] Get status of the system
+[3] Remove at least 6 programs
+[4] Using the if condition
+[32m > Choose anyone:[0m 2
+[H[2J[3J-------------------------------System Information----------------------------[32m
+Hostname:		hritikpc
+uptime:			2:36 1
+Manufacturer:		Acer
+Product Name:		Aspire A715-75G
+Version:		V1.03
+cat: /sys/class/dmi/id/product_serial: Permission denied
+Serial Number:		
+Machine Type:		Physical
+Operating System:	Ubuntu 20.04.1 LTS
+Kernel:			5.13.0-52-generic
+Architecture:		x86_64
+Processor Name:		Intel(R) Core(TM) i5-9300H CPU @ 2.40GHz
+Active User:		hritik
+System Main IP:		192.168.1.41 172.17.0.1
+
+[0m-------------------------------CPU/Memory Usage------------------------------[32m
+Memory Usage:	35.14%
+Swap Usage:	0.12%
+CPU Usage:	5.27%
+
+[0m-------------------------------Disk Usage >80%-------------------------------[32m
+Filesystem      Size  Used Avail Use% Mounted on
+udev            3.8G     0  3.8G   0% /dev
+tmpfs           779M  5.1M  774M   1% /run
+/dev/nvme0n1p5  274G  173G   88G  67% /
+tmpfs           3.9G   90M  3.8G   3% /dev/shm
+tmpfs           5.0M  4.0K  5.0M   1% /run/lock
+tmpfs           3.9G     0  3.9G   0% /sys/fs/cgroup
+/dev/loop0      128K  128K     0 100% /snap/bare/5
+/dev/loop2       62M   62M     0 100% /snap/core20/1494
+/dev/loop1      1.9M  1.9M     0 100% /snap/btop/427
+/dev/loop3       73M   73M     0 100% /snap/flameshot/182
+/dev/loop5      114M  114M     0 100% /snap/core/13425
+/dev/loop4       71M   71M     0 100% /snap/core22/188
+/dev/loop7      219M  219M     0 100% /snap/gnome-3-34-1804/77
+/dev/loop8      148M  148M     0 100% /snap/figma-linux/156
+/dev/loop9      255M  255M     0 100% /snap/gnome-3-38-2004/106
+/dev/loop10      92M   92M     0 100% /snap/gtk-common-themes/1535
+/dev/loop11     9.7M  9.7M     0 100% /snap/htop/3414
+/dev/loop12     114M  114M     0 100% /snap/core/13308
+/dev/loop13     1.3M  1.3M     0 100% /snap/gnome-chess/78
+/dev/loop14      80M   80M     0 100% /snap/p3x-onenote/139
+/dev/loop15      51M   51M     0 100% /snap/snap-store/547
+/dev/loop16     165M  165M     0 100% /snap/gnome-3-28-1804/161
+/dev/loop17      62M   62M     0 100% /snap/core20/1518
+/dev/loop18      55M   55M     0 100% /snap/snap-store/558
+/dev/loop19      92M   92M     0 100% /snap/p3x-onenote/138
+/dev/loop20     148M  148M     0 100% /snap/figma-linux/154
+/dev/loop21     296M  296M     0 100% /snap/vlc/2344
+/dev/nvme0n1p1   96M   58M   39M  60% /boot/efi
+/dev/loop22     170M  170M     0 100% /snap/spotify/58
+/dev/loop23     1.4M  1.4M     0 100% /snap/gnome-chess/76
+/dev/loop24      82M   82M     0 100% /snap/onenote-desktop/17
+/dev/loop25     400M  400M     0 100% /snap/obs-studio/1284
+/dev/loop26     106M  106M     0 100% /snap/slack/64
+/dev/loop27     128K  128K     0 100% /snap/hello-world/29
+/dev/loop28      56M   56M     0 100% /snap/mutt/265
+/dev/loop29      47M   47M     0 100% /snap/snapd/16010
+/dev/loop30      82M   82M     0 100% /snap/onenote-desktop/15
+/dev/loop31     170M  170M     0 100% /snap/spotify/60
+/dev/loop32     296M  296M     0 100% /snap/vlc/2288
+/dev/loop33      47M   47M     0 100% /snap/snapd/16292
+/dev/loop34      56M   56M     0 100% /snap/core18/2409
+/dev/loop35      56M   56M     0 100% /snap/mutt/277
+/dev/loop36     106M  106M     0 100% /snap/slack/63
+/dev/loop37      56M   56M     0 100% /snap/core18/2344
+/dev/loop38     1.9M  1.9M     0 100% /snap/btop/433
+/dev/loop39     163M  163M     0 100% /snap/gnome-3-28-1804/145
+/dev/loop40      82M   82M     0 100% /snap/gtk-common-themes/1534
+/dev/loop41     9.7M  9.7M     0 100% /snap/htop/3417
+/dev/loop42     261M  261M     0 100% /snap/kde-frameworks-5-core18/32
+/dev/loop43     219M  219M     0 100% /snap/gnome-3-34-1804/72
+/dev/loop44     401M  401M     0 100% /snap/gnome-3-38-2004/112
+/dev/loop45     425M  425M     0 100% /snap/kde-frameworks-5-qt-5-15-3-core20/8
+/dev/loop46     425M  425M     0 100% /snap/kde-frameworks-5-91-qt-5-15-3-core20/1
+tmpfs           779M   52K  779M   1% /run/user/1000
+/dev/loop47      73M   73M     0 100% /snap/flameshot/183
+[0m-----------------------------------------------------------------------------
+]0;hritik@hritikpc: ~/Desktop/mukesh[01;32mhritik@hritikpc[00m:[01;34m~/Desktop/mukesh[00m$ ./consolidated-code.sh 
+			Hello this is Mukesh Kumar Submitting the assignment week1 OS Hardening
+[1] Install 12 programms
+[2] Get status of the system
+[3] Remove at least 6 programs
+[4] Using the if condition
+[32m > Choose anyone:[0m 3
+[H[2J[3J		
+Removing any 6 programs
+
+[32m [1] Removing Wireshark
+Reading package lists... 0%Reading package lists... 100%Reading package lists... Done
+Building dependency tree... 0%Building dependency tree... 0%Building dependency tree... 50%Building dependency tree... 50%Building dependency tree       
+Reading state information... 0%Reading state information... 0%Reading state information... Done
+The following packages were automatically installed and are no longer required:
+  bridge-utils docker-scan-plugin ubuntu-fan wireshark-qt wmdocker
+Use 'sudo apt autoremove' to remove them.
+The following packages will be REMOVED:
+  wireshark
+0 upgraded, 0 newly installed, 1 to remove and 521 not upgraded.
+After this operation, 59.4 kB disk space will be freed.
+Do you want to continue? [Y/n] n
+Abort.
+[2] removing tree
+Reading package lists... 0%Reading package lists... 100%Reading package lists... Done
+Building dependency tree... 0%Building dependency tree... 0%Building dependency tree... 50%Building dependency tree... 50%Building dependency tree       
+Reading state information... 0%Reading state information... 0%Reading state information... Done
+The following packages were automatically installed and are no longer required:
+  bridge-utils docker-scan-plugin ubuntu-fan wmdocker
+Use 'sudo apt autoremove' to remove them.
+The following packages will be REMOVED:
+  tree
+0 upgraded, 0 newly installed, 1 to remove and 521 not upgraded.
+After this operation, 115 kB disk space will be freed.
+Do you want to continue? [Y/n] n
+Abort.
+[3] removing nmap
+Reading package lists... 0%Reading package lists... 100%Reading package lists... Done
+Building dependency tree... 0%Building dependency tree... 0%Building dependency tree... 50%Building dependency tree... 50%Building dependency tree       
+Reading state information... 0%Reading state information... 0%Reading state information... Done
+The following packages were automatically installed and are no longer required:
+  bridge-utils docker-scan-plugin liblinear4 lua-lpeg nmap-common ubuntu-fan wmdocker
+Use 'sudo apt autoremove' to remove them.
+The following packages will be REMOVED:
+  nmap
+0 upgraded, 0 newly installed, 1 to remove and 521 not upgraded.
+After this operation, 4,499 kB disk space will be freed.
+Do you want to continue? [Y/n] n
+Abort.
+[4] removing vim
+Reading package lists... 0%Reading package lists... 100%Reading package lists... Done
+Building dependency tree... 0%Building dependency tree... 0%Building dependency tree... 50%Building dependency tree... 50%Building dependency tree       
+Reading state information... 0%Reading state information... 0%Reading state information... Done
+The following packages were automatically installed and are no longer required:
+  bridge-utils docker-scan-plugin ubuntu-fan vim-runtime wmdocker
+Use 'sudo apt autoremove' to remove them.
+The following packages will be REMOVED:
+  vim
+0 upgraded, 0 newly installed, 1 to remove and 521 not upgraded.
+After this operation, 3,112 kB disk space will be freed.
+Do you want to continue? [Y/n] n
+Abort.
+[5] removing curl
+Reading package lists... 0%Reading package lists... 100%Reading package lists... Done
+Building dependency tree... 0%Building dependency tree... 0%Building dependency tree... 50%Building dependency tree... 50%Building dependency tree       
+Reading state information... 0%Reading state information... 0%Reading state information... Done
+The following packages were automatically installed and are no longer required:
+  bridge-utils cython3 docker-scan-plugin fltk1.3-doc fluid freeglut3 freeglut3-dev gazebo11 gazebo11-common gazebo11-plugin-base gir1.2-gtk-2.0 gir1.2-harfbuzz-0.0
+  glew-utils hddtemp ignition-tools libarmadillo-dev libarpack2-dev libassimp-dev libassimp5 libatk-bridge2.0-dev libatk1.0-dev libatspi2.0-dev libavdevice-dev
+  libavfilter-dev libblas-dev libbullet-dev libbullet2.88 libcairo-script-interpreter2 libcairo2-dev libccd-dev libccd2 libcfitsio-dev libcfitsio-doc libcharls-dev
+  libdap-dev libdapserver7v5 libdart-collision-bullet-dev libdart-collision-ode-dev libdart-dev libdart-external-ikfast-dev libdart-external-odelcpsolver-dev
+  libdart-utils-dev libdart-utils-urdf-dev libdart6 libdart6-collision-bullet libdart6-collision-ode libdart6-external-odelcpsolver libdart6-utils
+  libdart6-utils-urdf libdatrie-dev libdbus-1-dev libegl1-mesa-dev libeigen3-dev libepoxy-dev libepsilon-dev libfcl-dev libfcl0.5 libflann-dev libflann1.9
+  libfltk-cairo1.3 libfltk-forms1.3 libfltk-images1.3 libfltk1.3-dev libfontconfig1-dev libfreeimage-dev libfreeimage3 libfreetype-dev libfreetype6-dev
+  libfreexl-dev libfribidi-dev libfyba-dev libgazebo11 libgazebo11-dev libgdal-dev libgeos-dev libgeotiff-dev libgif-dev libgl2ps-dev libgle3 libglew-dev libglew2.1
+  libgraphite2-dev libgtk-3-dev libgtk2.0-dev libgts-dev libharfbuzz-dev libharfbuzz-gobject0 libhdf5-mpi-dev libhdf5-openmpi-dev libice-dev libignition-cmake2-dev
+  libignition-common3 libignition-common3-av libignition-common3-av-dev libignition-common3-core-dev libignition-common3-dev libignition-common3-events
+  libignition-common3-events-dev libignition-common3-graphics libignition-common3-graphics-dev libignition-common3-profiler libignition-common3-profiler-dev
+  libignition-fuel-tools4 libignition-fuel-tools4-dev libignition-math6 libignition-math6-dev libignition-msgs5 libignition-msgs5-dev libignition-tools-dev
+  libignition-transport8 libignition-transport8-core-dev libignition-transport8-dev libignition-transport8-log libignition-transport8-log-dev libjson-c-dev
+  libjsoncpp-dev libjxr0 libkml-dev libkmlconvenience1 libkmlregionator1 libkmlxsd1 liblapack-dev libminizip-dev libnetcdf-cxx-legacy-dev libnorm-dev liboctomap-dev
+  liboctomap1.9 libode-dev libode8 libogdi-dev libogre-1.9-dev libogre-1.9.0v5 libopenjp2-7-dev libopenni-dev libopenni-sensor-pointclouds0 libopenni0 libopenni2-0
+  libopenni2-dev liborocos-kdl-dev liborocos-kdl1.4 libpango1.0-dev libpcl-apps1.10 libpcl-common1.10 libpcl-dev libpcl-features1.10 libpcl-filters1.10
+  libpcl-io1.10 libpcl-kdtree1.10 libpcl-keypoints1.10 libpcl-ml1.10 libpcl-octree1.10 libpcl-outofcore1.10 libpcl-people1.10 libpcl-recognition1.10
+  libpcl-registration1.10 libpcl-sample-consensus1.10 libpcl-search1.10 libpcl-segmentation1.10 libpcl-stereo1.10 libpcl-surface1.10 libpcl-tracking1.10
+  libpcl-visualization1.10 libpgm-dev libpixman-1-dev libpoppler-dev libpoppler-private-dev libpostproc-dev libproj-dev libprotobuf-dev libprotobuf-lite17
+  libprotoc-dev libprotoc17 libqhull-dev libqhull-r7 libqt5designercomponents5 libqt5quickparticles5 libqt5quickshapes5 libqt5quicktest5 libqt5webkit5-dev
+  libqwt-qt5-6 libqwt-qt5-dev libsdformat9 libsdformat9-dev libsimbody-dev libsimbody3.6 libsm-dev libsodium-dev libspatialite-dev libspnav0 libsuperlu-dev
+  libtar-dev libtar0 libthai-dev libtheora-dev liburdfdom-dev liburdfdom-headers-dev liburdfdom-model liburdfdom-model-state liburdfdom-sensor liburdfdom-world
+  liburiparser-dev libusb-1.0-0-dev libusb-1.0-doc libvtk7-dev libvtk7-java libvtk7-jni libvtk7-qt-dev libvtk7.1p libvtk7.1p-qt libwayland-bin libwayland-dev
+  libwebp-dev libxcb-render0-dev libxcb-shm0-dev libxcomposite-dev libxcursor-dev libxdamage-dev libxerces-c-dev libxfixes-dev libxft-dev libxi-dev libxinerama-dev
+  libxkbcommon-dev libxmu-dev libxmu-headers libxrandr-dev libxrender-dev libxss-dev libxt-dev libxtst-dev libyaml-cpp-dev libyaml-cpp0.6 libyaml-dev libzip-dev
+  libzmq3-dev libzstd-dev libzzip-0-13 openni-utils pango1.0-tools protobuf-compiler python3-attr python3-autobahn python3-automat python3-cbor python3-constantly
+  python3-hamcrest python3-hyperlink python3-incremental python3-lz4 python3-mpi4py python3-opengl python3-png python3-pykdl python3-pyqrcode python3-pyqt5.qtopengl
+  python3-service-identity python3-snappy python3-trie python3-twisted python3-twisted-bin python3-txaio python3-u-msgpack python3-ubjson python3-vtk7
+  python3-wsaccel python3-zope.interface qdoc-qt5 qhelpgenerator-qt5 qt5-assistant qtattributionsscanner-qt5 qtdeclarative5-dev qtdeclarative5-dev-tools
+  qttools5-dev qttools5-dev-tools qttools5-private-dev ros-noetic-actionlib-tutorials ros-noetic-angles ros-noetic-bond-core ros-noetic-bondpy
+  ros-noetic-camera-calibration ros-noetic-camera-calibration-parsers ros-noetic-camera-info-manager ros-noetic-cmake-modules ros-noetic-common-msgs
+  ros-noetic-common-tutorials ros-noetic-compressed-depth-image-transport ros-noetic-compressed-image-transport ros-noetic-control-msgs ros-noetic-control-toolbox
+  ros-noetic-controller-interface ros-noetic-controller-manager ros-noetic-controller-manager-msgs ros-noetic-depth-image-proc ros-noetic-diagnostic-aggregator
+  ros-noetic-diagnostic-analysis ros-noetic-diagnostic-common-diagnostics ros-noetic-diagnostic-msgs ros-noetic-diagnostic-updater ros-noetic-diagnostics
+  ros-noetic-diff-drive-controller ros-noetic-eigen-conversions ros-noetic-executive-smach ros-noetic-filters ros-noetic-forward-command-controller
+  ros-noetic-gazebo-dev ros-noetic-gazebo-msgs ros-noetic-gazebo-plugins ros-noetic-gazebo-ros ros-noetic-gazebo-ros-control ros-noetic-gazebo-ros-pkgs
+  ros-noetic-geometry ros-noetic-geometry-tutorials ros-noetic-gl-dependency ros-noetic-hardware-interface ros-noetic-image-common ros-noetic-image-geometry
+  ros-noetic-image-pipeline ros-noetic-image-proc ros-noetic-image-publisher ros-noetic-image-rotate ros-noetic-image-transport-plugins ros-noetic-image-view
+  ros-noetic-interactive-marker-tutorials ros-noetic-interactive-markers ros-noetic-joint-limits-interface ros-noetic-joint-state-controller
+  ros-noetic-joint-state-publisher ros-noetic-joint-state-publisher-gui ros-noetic-kdl-conversions ros-noetic-kdl-parser ros-noetic-laser-assembler
+  ros-noetic-laser-filters ros-noetic-laser-geometry ros-noetic-laser-pipeline ros-noetic-map-msgs ros-noetic-media-export ros-noetic-mk ros-noetic-nav-msgs
+  ros-noetic-nodelet-core ros-noetic-nodelet-topic-tools ros-noetic-nodelet-tutorial-math ros-noetic-pcl-conversions ros-noetic-pcl-msgs ros-noetic-pcl-ros
+  ros-noetic-perception ros-noetic-perception-pcl ros-noetic-pluginlib-tutorials ros-noetic-polled-camera ros-noetic-position-controllers ros-noetic-realtime-tools
+  ros-noetic-robot ros-noetic-robot-state-publisher ros-noetic-ros ros-noetic-ros-base ros-noetic-ros-comm ros-noetic-ros-core ros-noetic-rosbag-migration-rule
+  ros-noetic-rosbash ros-noetic-rosboost-cfg ros-noetic-rosconsole-bridge ros-noetic-roscpp-core ros-noetic-roscreate ros-noetic-roslang ros-noetic-roslint
+  ros-noetic-roslisp ros-noetic-rosmake ros-noetic-roswtf ros-noetic-rqt-moveit ros-noetic-rqt-nav-view ros-noetic-rqt-pose-view ros-noetic-rqt-robot-dashboard
+  ros-noetic-rqt-robot-monitor ros-noetic-rqt-robot-steering ros-noetic-rqt-runtime-monitor ros-noetic-rqt-tf-tree ros-noetic-self-test ros-noetic-shape-msgs
+  ros-noetic-smach ros-noetic-smach-msgs ros-noetic-smach-ros ros-noetic-stage ros-noetic-stage-ros ros-noetic-stereo-image-proc ros-noetic-stereo-msgs
+  ros-noetic-tf ros-noetic-tf-conversions ros-noetic-tf2 ros-noetic-tf2-eigen ros-noetic-tf2-geometry-msgs ros-noetic-tf2-kdl ros-noetic-tf2-msgs ros-noetic-tf2-py
+  ros-noetic-tf2-ros ros-noetic-theora-image-transport ros-noetic-trajectory-msgs ros-noetic-transmission-interface ros-noetic-turtle-actionlib ros-noetic-turtle-tf
+  ros-noetic-turtle-tf2 ros-noetic-urdf ros-noetic-urdf-parser-plugin ros-noetic-vision-opencv ros-noetic-visualization-marker-tutorials
+  ros-noetic-visualization-msgs ros-noetic-xacro sbcl sdformat9-sdf tcl-dev tcl-vtk7 tcl8.6-dev tk-dev tk8.6-dev ttf-dejavu-core ubuntu-fan vtk7 wayland-protocols
+  wmdocker x11proto-input-dev x11proto-randr-dev x11proto-record-dev x11proto-scrnsaver-dev x11proto-xinerama-dev
+Use 'sudo apt autoremove' to remove them.
+The following packages will be REMOVED:
+  curl ros-noetic-desktop ros-noetic-desktop-full ros-noetic-librviz-tutorial ros-noetic-resource-retriever ros-noetic-rqt-robot-plugins ros-noetic-rqt-rviz
+  ros-noetic-rviz ros-noetic-rviz-plugin-tutorials ros-noetic-rviz-python-tutorial ros-noetic-simulators ros-noetic-urdf-sim-tutorial ros-noetic-urdf-tutorial
+  ros-noetic-visualization-tutorials ros-noetic-viz steam-launcher
+0 upgraded, 0 newly installed, 16 to remove and 506 not upgraded.
+After this operation, 18.3 MB disk space will be freed.
+Do you want to continue? [Y/n] n
+Abort.
+[6] removing lolcat
+Reading package lists... 0%Reading package lists... 100%Reading package lists... Done
+Building dependency tree... 0%Building dependency tree... 0%Building dependency tree... 50%Building dependency tree... 50%Building dependency tree       
+Reading state information... 0%Reading state information... 0%Reading state information... Done
+The following packages were automatically installed and are no longer required:
+  bridge-utils docker-scan-plugin ruby-paint ruby-trollop ubuntu-fan wmdocker
+Use 'sudo apt autoremove' to remove them.
+The following packages will be REMOVED:
+  lolcat
+0 upgraded, 0 newly installed, 1 to remove and 521 not upgraded.
+After this operation, 70.7 kB disk space will be freed.
+Do you want to continue? [Y/n] n
+Abort.
+[7] removing espeak
+Reading package lists... 0%Reading package lists... 100%Reading package lists... Done
+Building dependency tree... 0%Building dependency tree... 0%Building dependency tree... 50%Building dependency tree... 50%Building dependency tree       
+Reading state information... 0%Reading state information... 0%Reading state information... Done
+The following packages were automatically installed and are no longer required:
+  bridge-utils docker-scan-plugin espeak-data libespeak1 ubuntu-fan wmdocker
+Use 'sudo apt autoremove' to remove them.
+The following packages will be REMOVED:
+  espeak
+0 upgraded, 0 newly installed, 1 to remove and 521 not upgraded.
+After this operation, 217 kB disk space will be freed.
+Do you want to continue? [Y/n] n
+Abort.
+[8] removing pv
+Reading package lists... 0%Reading package lists... 100%Reading package lists... Done
+Building dependency tree... 0%Building dependency tree... 0%Building dependency tree... 50%Building dependency tree... 50%Building dependency tree       
+Reading state information... 0%Reading state information... 0%Reading state information... Done
+The following packages were automatically installed and are no longer required:
+  bridge-utils docker-scan-plugin ubuntu-fan wmdocker
+Use 'sudo apt autoremove' to remove them.
+The following packages will be REMOVED:
+  pv
+0 upgraded, 0 newly installed, 1 to remove and 521 not upgraded.
+After this operation, 123 kB disk space will be freed.
+Do you want to continue? [Y/n] n
+Abort.
+[9] removing jq
+Reading package lists... 0%Reading package lists... 100%Reading package lists... Done
+Building dependency tree... 0%Building dependency tree... 0%Building dependency tree... 50%Building dependency tree... 50%Building dependency tree       
+Reading state information... 0%Reading state information... 0%Reading state information... Done
+The following packages were automatically installed and are no longer required:
+  bridge-utils docker-scan-plugin libjq1 libonig5 ubuntu-fan wmdocker
+Use 'sudo apt autoremove' to remove them.
+The following packages will be REMOVED:
+  jq
+0 upgraded, 0 newly installed, 1 to remove and 521 not upgraded.
+After this operation, 99.3 kB disk space will be freed.
+Do you want to continue? [Y/n] n
+Abort.
+[10] removing dirsearch
+Reading package lists... 0%Reading package lists... 100%Reading package lists... Done
+Building dependency tree... 0%Building dependency tree... 0%Building dependency tree... 50%Building dependency tree... 50%Building dependency tree       
+Reading state information... 0%Reading state information... 0%Reading state information... Done
+[1;31mE: [0mUnable to locate package dirsearch[0m
+[11] removing git
+Reading package lists... 0%Reading package lists... 100%Reading package lists... Done
+Building dependency tree... 0%Building dependency tree... 0%Building dependency tree... 50%Building dependency tree... 50%Building dependency tree       
+Reading state information... 0%Reading state information... 0%Reading state information... Done
+The following packages were automatically installed and are no longer required:
+  bridge-utils docker-scan-plugin git-man liberror-perl ubuntu-fan wmdocker
+Use 'sudo apt autoremove' to remove them.
+The following packages will be REMOVED:
+  git
+0 upgraded, 0 newly installed, 1 to remove and 521 not upgraded.
+After this operation, 36.5 MB disk space will be freed.
+Do you want to continue? [Y/n] n
+Abort.
+[12] removing metasploit[0m
+Reading package lists... 0%Reading package lists... 100%Reading package lists... Done
+Building dependency tree... 0%Building dependency tree... 0%Building dependency tree... 50%Building dependency tree... 50%Building dependency tree       
+Reading state information... 0%Reading state information... 0%Reading state information... Done
+[1;31mE: [0mUnable to locate package metasploit[0m
+]0;hritik@hritikpc: ~/Desktop/mukesh[01;32mhritik@hritikpc[00m:[01;34m~/Desktop/mukesh[00m$ ./consolidated-code.sh 
+			Hello this is Mukesh Kumar Submitting the assignment week1 OS Hardening
+[1] Install 12 programms
+[2] Get status of the system
+[3] Remove at least 6 programs
+[4] Using the if condition
+[32m > Choose anyone:[0m 4
+Enter Two Numbers: 
+17 64
+Second Number is Larger
+]0;hritik@hritikpc: ~/Desktop/mukesh[01;32mhritik@hritikpc[00m:[01;34m~/Desktop/mukesh[00m$ # Complete 5 to 8 bash scripts
+]0;hritik@hritikpc: ~/Desktop/mukesh[01;32mhritik@hritikpc[00m:[01;34m~/Desktop/mukesh[00m$ Signing off
+Signing: command not found
+]0;hritik@hritikpc: ~/Desktop/mukesh[01;32mhritik@hritikpc[00m:[01;34m~/Desktop/mukesh[00m$ exit
+
+Script done on 2022-07-08 17:26:07+05:30 [COMMAND_EXIT_CODE="127"]
